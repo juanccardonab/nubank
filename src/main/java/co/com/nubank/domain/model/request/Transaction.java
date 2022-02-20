@@ -14,7 +14,7 @@ public class Transaction {
 
     private String operation;
     @JsonProperty("unit-cost")
-    private String unitCost;
-    private String quantity;
+    private Integer unitCost;
+    private Integer quantity;
 
 }

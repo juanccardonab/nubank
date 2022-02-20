@@ -5,11 +5,7 @@ h
 8src/main/java/co/com/nubank/CapitalGainsApplication.java,2/8/2881517b6eb20da3b919a8bf8fbde8b97678abc3
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 r
 Bsrc/main/java/co/com/nubank/domain/model/response/TaxResponse.java,8/5/85e8c047410e1461420979dc7eecaf8b92659671
 e
 5src/main/java/co/com/nubank/config/UseCaseConfig.java,8/d/8db7abc4ea657011b5d9ca03776180cf672e9165
-q
-Asrc/main/java/co/com/nubank/domain/model/request/Transaction.java,6/b/6b7908bbc5e0fed63908cb4ab0bdad20b3f22734
