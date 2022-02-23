@@ -1,14 +1,11 @@
 package co.com.nubank.domain.model.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
 @Getter
-@NoArgsConstructor
+@Builder
 @AllArgsConstructor
 public class Transaction {
 

@@ -15,7 +15,8 @@ public class Routes {
     @Bean
     public RouterFunction<ServerResponse> getTaxPayment(Handle handle) {
         return route()
-                .POST("/tax", accept(MediaType.APPLICATION_JSON), handle::getTaxPayment)
+                .POST("/v1/tax", accept(MediaType.APPLICATION_JSON), handle::getTaxPayment)
+                .POST("/v2/tax", accept(MediaType.APPLICATION_JSON), handle::getTaxPaymentV2)
                 .build();
     }
 }

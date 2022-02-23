@@ -1,14 +1,16 @@
 package co.com.nubank.domain.model.response;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+
+import java.util.List;
 
 @Setter
 @Getter
 @Builder
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class TaxResponse {
-    public final String tax;
+    private List<Tax> taxList;
 }
